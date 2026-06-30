@@ -19,7 +19,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-charcoal backdrop-blur-sm">
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3">
-          <Image src="/logo.jpeg" alt="Merenciouswear logo" width={40} height={40} className="object-contain" />
+          <Image src="/logo.png" alt="Merenciouswear logo" width={40} height={40} className="object-contain" />
           <span className="font-heading text-gold text-lg tracking-widest uppercase hidden sm:block">
             MerenciousWear
           </span>
