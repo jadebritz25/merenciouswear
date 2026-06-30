@@ -16,7 +16,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-ink/95 backdrop-blur-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-charcoal backdrop-blur-sm">
       <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3">
           <Image src="/logo.jpeg" alt="Merenciouswear logo" width={40} height={40} className="object-contain" />
@@ -53,7 +53,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-ink border-t border-gold/20">
+        <div className="md:hidden bg-charcoal border-t border-gold/20">
           <ul className="flex flex-col py-4">
             {links.map((l) => (
               <li key={l.href}>
