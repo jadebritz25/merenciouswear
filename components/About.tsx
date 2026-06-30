@@ -30,13 +30,13 @@ export default function About() {
         </div>
         <div className="relative">
           <div className="absolute -top-4 -left-4 w-full h-full border border-gold/30" />
-          <div className="relative bg-ink/5 aspect-[3/4] flex items-center justify-center overflow-hidden">
+          <div className="relative aspect-[3/4] overflow-hidden">
             <Image
-              src="/logo.jpeg"
-              alt="Merenciouswear"
-              width={300}
-              height={300}
-              className="object-contain p-12 opacity-80"
+              src="/our-story.jpeg"
+              alt="Merenciouswear — Fashion Born From Purpose"
+              fill
+              className="object-cover object-top"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>
