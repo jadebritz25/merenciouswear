@@ -45,7 +45,7 @@ export default function Gallery() {
             Want to see more?
           </p>
           <a
-            href="https://instagram.com/MerenciousWear"
+            href="https://www.instagram.com/merenciouswear?igsh=N3I4cHkyOTh5NXl4&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 border border-gold text-gold text-xs tracking-widest uppercase font-body font-semibold hover:bg-gold/10 transition-colors"

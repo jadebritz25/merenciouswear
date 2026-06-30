@@ -21,7 +21,7 @@ export default function Navbar() {
         <a href="#home" className="flex items-center gap-3">
           <Image src="/logo.jpeg" alt="Merenciouswear logo" width={40} height={40} className="object-contain" />
           <span className="font-heading text-gold text-lg tracking-widest uppercase hidden sm:block">
-            Merenciouswear
+            MerenciousWear
           </span>
         </a>
 
