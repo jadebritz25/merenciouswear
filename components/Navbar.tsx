@@ -60,7 +60,7 @@ export default function Navbar() {
                 <a
                   href={l.href}
                   onClick={() => setOpen(false)}
-                  className="block px-6 py-3 text-cream/80 hover:text-gold text-xs tracking-widest uppercase"
+                  className="block px-6 py-3 text-cream/80 hover:text-gold text-xs tracking-widest uppercase font-body transition-colors"
                 >
                   {l.label}
                 </a>
