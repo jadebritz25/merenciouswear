@@ -175,11 +175,6 @@ export const AnimatedMarqueeHero: React.FC<AnimatedMarqueeHeroProps> = ({
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 pointer-events-none">
-        <span className="text-cream/30 text-xs tracking-widest uppercase font-body">Scroll</span>
-        <div className="w-px h-10 bg-gradient-to-b from-gold/60 to-transparent" />
-      </div>
     </section>
   );
 };
